@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.react-native.json",
+  "compilerOptions": {
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    }
+  }
+}

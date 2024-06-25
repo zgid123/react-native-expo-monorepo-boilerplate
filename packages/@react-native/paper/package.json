@@ -1,0 +1,36 @@
+{
+  "name": "@react-native/paper",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./src/paper.ts",
+  "types": "./src/paper.ts",
+  "exports": {
+    ".": "./src/paper.ts",
+    "./core": "./src/core/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./src/paper.ts"
+      ],
+      "./core": [
+        "./src/core/index.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "@core/utils": "workspace:^",
+    "@gorhom/bottom-sheet": "5.0.0-alpha.10",
+    "@react-native/utils": "workspace:^",
+    "react-hook-form": "^7.52.0",
+    "react-native-calendars": "^1.1305.0",
+    "react-native-modal": "^13.0.1",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated-carousel": "^3.5.1",
+    "react-native-vector-icons": "^10.1.0"
+  },
+  "devDependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@types/react": "^18.3.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@react-native/i18n",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@core/i18n": "workspace:^",
+    "react-i18next": "^14.1.2"
+  }
+}

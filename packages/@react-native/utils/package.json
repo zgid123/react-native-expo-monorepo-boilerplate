@@ -1,0 +1,41 @@
+{
+  "name": "@react-native/utils",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./src/utils/index.ts",
+  "types": "./src/utils/index.ts",
+  "exports": {
+    ".": "./src/utils/index.ts",
+    "./useForm": "./src/useForm/index.ts",
+    "./zustand": "./src/zustandStore/index.ts",
+    "./queryHooks": "./src/queryHooks/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./src/utils/index.ts"
+      ],
+      "useForm": [
+        "./src/useForm/index.ts"
+      ],
+      "zustand": [
+        "./src/zustandStore/index.ts"
+      ],
+      "queryHooks": [
+        "./src/queryHooks/index.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.48.0",
+    "auto-zustand-selectors-hook": "^2.0.4",
+    "immer": "^10.1.1",
+    "react-hook-form": "^7.52.0",
+    "remeda": "^2.2.0",
+    "zustand": "^5.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "expo-router": "~3.5.16"
+  }
+}
