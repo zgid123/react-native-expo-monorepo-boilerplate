@@ -21,6 +21,7 @@ i18next.init({
 export const i18n = i18next;
 
 declare module 'i18next' {
+  // eslint-disable-next-line @typescript-eslint/naming-convention
   interface CustomTypeOptions {
     resources: {
       trans: ITranslationProps;

@@ -1,3 +1,6 @@
 export const en: ITranslationProps = {
-  commons: {},
+  commons: {
+    close: 'Close',
+    confirm: 'Confirm',
+  },
 };

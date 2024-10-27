@@ -16,7 +16,7 @@ yarn install
 │   │   └── utils
 │   └── @react-native
 │       ├── i18n
-│       ├── paper
+│       ├── ui-kit
 │       └── utils
 └── workspaces
     ├── major-app
@@ -32,7 +32,7 @@ yarn install
     - utils: contains all utilities for all mono projects
   - @react-native: all packages for React Native
     - i18n: init i18n for React Native
-    - paper: design system using react-native-paper
+    - ui-kit: custom design system
     - utils: contains all utils for React Native (react-query, react-hook-form and zustand)
 - workspaces
   - major-app: major mobile app

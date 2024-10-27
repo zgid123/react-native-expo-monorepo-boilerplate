@@ -1,12 +1,11 @@
-import { Title } from '@react-native/paper';
-import { Stack } from '@react-native/paper/core';
+import { Heading, Stack } from '@react-native/ui-kit';
 
 import type { JSX } from 'react';
 
 export default function Root(): JSX.Element {
   return (
     <Stack>
-      <Title>Welcome to Major App</Title>
+      <Heading>Welcome to Major App</Heading>
     </Stack>
   );
 }

@@ -5,10 +5,10 @@ import { useFonts } from 'expo-font';
 import { useEffect, type JSX } from 'react';
 import Toast from 'react-native-toast-message';
 import FontAwesome from '@expo/vector-icons/FontAwesome6';
+import { SafeAreaView, UIKitProvider } from '@react-native/ui-kit';
 import { QueryClientProvider } from '@react-native/utils/queryHooks';
 import { hideAsync, preventAutoHideAsync } from 'expo-splash-screen';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { SafeAreaView, ThemeProvider } from '@react-native/paper/core';
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
@@ -25,11 +25,11 @@ function RootLayoutNav(): JSX.Element {
 
   return (
     <>
-      <ThemeProvider>
+      <UIKitProvider>
         <SafeAreaView>
           <Slot />
         </SafeAreaView>
-      </ThemeProvider>
+      </UIKitProvider>
       <Toast topOffset={insets.top} />
     </>
   );

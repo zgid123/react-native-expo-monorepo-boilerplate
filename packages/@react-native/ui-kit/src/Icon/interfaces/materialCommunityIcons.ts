@@ -1,0 +1,17 @@
+export type TMaterialCommunityIcons =
+  | 'arrow-left-thin'
+  | 'arrow-right-thin'
+  | 'bell'
+  | 'calendar-month'
+  | 'cash'
+  | 'chevron-down'
+  | 'chevron-left'
+  | 'chevron-right'
+  | 'chevron-up'
+  | 'clock-outline'
+  | 'close'
+  | 'eye-off'
+  | 'eye'
+  | 'home'
+  | 'information-outline'
+  | 'map-marker';

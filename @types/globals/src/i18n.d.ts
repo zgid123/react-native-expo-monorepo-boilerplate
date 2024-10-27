@@ -1,6 +1,9 @@
 declare global {
   interface ITranslationProps {
-    commons: {};
+    commons: {
+      close: string;
+      confirm: string;
+    };
   }
 }
 
